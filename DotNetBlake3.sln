@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{FDA35169-7E5A-4BBE-8911-8E01DE940A3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibStatic", "LibStatic\LibStatic.csproj", "{2C9909EB-4D72-4558-AF76-8B16D667A0CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{FDA35169-7E5A-4BBE-8911-8E01DE940A3E}.Release|x64.Build.0 = Release|Any CPU
 		{FDA35169-7E5A-4BBE-8911-8E01DE940A3E}.Release|x86.ActiveCfg = Release|Any CPU
 		{FDA35169-7E5A-4BBE-8911-8E01DE940A3E}.Release|x86.Build.0 = Release|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Release|x64.Build.0 = Release|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C9909EB-4D72-4558-AF76-8B16D667A0CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
