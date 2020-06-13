@@ -14,6 +14,6 @@ so: src/lib.rs
 	cargo build --release
 
 app: ConsoleApp/Program.cs Lib/Binding.cs
-	dotnet build ConsoleApp
+	dotnet build ConsoleApp -c Release
 
 .PHONY: clean linux
