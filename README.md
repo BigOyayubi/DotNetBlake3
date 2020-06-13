@@ -25,6 +25,8 @@ $ make linux_test
 # C# Sample
 
 ```
+using DotNetBlake3;
+
 // simple
 var output = new byte[Hasher.OUTPUT_SIZE];
 Hasher.Calc(input_bytes, output);
