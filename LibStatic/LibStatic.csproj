@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <DefineConstants>LIB_STATIC</DefineConstants>
   </PropertyGroup>
-
+  <ItemGroup>
+    <Compile Include="../Lib/Binding.cs">
+      <Link>Bindig.cs</Link>
+    </Compile>
+  </ItemGroup>
 </Project>
