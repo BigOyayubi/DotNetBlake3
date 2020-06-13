@@ -8,7 +8,7 @@ see https://github.com/BLAKE3-team/BLAKE3
 
 if you want to use BLAKE3 on Unity. see https://github.com/BigOyayubi/BLAKE3Unity
 
-# How To Use
+# How To Build
 
 ```
 # build .dll and .so on Linux
@@ -20,6 +20,21 @@ $ cp plugins/linux/x86_64/libdot_net_blake3.so /your/proj/dir
 
 # build and run sample console app
 $ make linux_test
+```
+
+# C# Sample
+
+```
+// simple
+var output = new byte[Hasher.OUTPUT_SIZE];
+Hasher.Calc(input_bytes, output);
+
+// stream
+using(var hasher = Hasher.Create()){
+   hasher.Update(input_bytes1);
+   hasher.Update(input_bytes2);
+   hasher.Finalize(output);
+}
 ```
 
 # Project Hierarchy
