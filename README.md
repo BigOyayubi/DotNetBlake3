@@ -1,6 +1,6 @@
 # DotNetBlake3
 
-.NETCore Blake3 wrapper APIs with FFI
+.NET Core Blake3 wrapper APIs use FFI
 
 BLAKE3 is crasy fast cryptographics hash function.
 
